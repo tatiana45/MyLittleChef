@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            mc:Ignorable="d"
+            xmlns:views="clr-namespace:MyLittleChef.Views"
+            x:Class="MyLittleChef.Views.MainPage"
+            BarBackgroundColor="YellowGreen"
+            BarTextColor="White">
+    <TabbedPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="YellowGreen"/>
+                <Setter Property="BarTextColor" Value="White"/>
+            </Style>
+        </ResourceDictionary>
+    </TabbedPage.Resources>
+    
+    <TabbedPage.Children>
+        <NavigationPage Title="My Recipes">
+            <x:Arguments>
+                <views:MyRecipePage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Discover">
+            <x:Arguments>
+                <views:PopularRecipe />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="What To Cook?">
+            <x:Arguments>
+                <views:SuggestionPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+    
+</TabbedPage>

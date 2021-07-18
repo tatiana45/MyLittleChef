@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:MyLittleChef.ViewModels"
+             mc:Ignorable="d"
+             x:Class="MyLittleChef.Views.PopularRecipe"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:PopularRecipeViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="carrot_background.png" Aspect="AspectFit" />
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="10, 10, 10, 10">
+                    <Label Text="Meal Type: " VerticalOptions="Center"/>
+                    <Picker Title="Pick Meal" HorizontalOptions="FillAndExpand" x:Name="CategoryPicker">
+                        <Picker.Items>
+                            <x:String>All</x:String>
+                            <x:String>Appetizer</x:String>
+                            <x:String>Breakfast</x:String>
+                            <x:String>Dessert</x:String>
+                            <x:String>Main Course</x:String>
+                            <x:String>Salad</x:String>
+                            <x:String>Soup</x:String>
+                            <x:String>Vegan</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Button Text="Search" x:Name="searchButton" Clicked="searchButton_Clicked"/>
+                </StackLayout>
+                <StackLayout>
+                    <CarouselView x:Name="recipeListView">
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout>
+                                    <Frame HasShadow="True"
+                                       BorderColor="DarkGray"
+                                       CornerRadius="5"
+                                       Margin="20"
+                                       HeightRequest="500"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="CenterAndExpand">
+                                        <StackLayout>
+                                            <Label Text="{Binding Title}" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                            <Image Source="{Binding Image}" Aspect="AspectFill" HeightRequest="250" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Instructions}" HorizontalOptions="Center" MaxLines="6" LineBreakMode="TailTruncation"/>
+                                            <Button Text="View Full Recipe" Clicked="ButtonRecipe_Clicked" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

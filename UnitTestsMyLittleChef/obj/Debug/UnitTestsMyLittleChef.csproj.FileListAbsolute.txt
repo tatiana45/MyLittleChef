@@ -1,0 +1,16 @@
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\UnitTestsMyLittleChef.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\UnitTestsMyLittleChef.pdb
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\MyLittleChef.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\MyLittleChef.pdb
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\obj\Debug\UnitTestsMyLittleChef.csprojAssemblyReference.cache
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\obj\Debug\UnitTestsMyLittleChef.csproj.CoreCompileInputs.cache
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\obj\Debug\UnitTestsMyLittleChef.csproj.CopyComplete
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\obj\Debug\UnitTestsMyLittleChef.dll
+C:\Users\tatia\source\repos\MyLittleChef\UnitTestsMyLittleChef\obj\Debug\UnitTestsMyLittleChef.pdb
